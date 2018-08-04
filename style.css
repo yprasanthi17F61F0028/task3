@@ -1,0 +1,127 @@
+header{
+  width: 50%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header>div{
+  width:25%;
+}
+header >div img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+header>div h3{
+  margin-top: 5%;
+  margin-right: auto;
+}
+.banner{
+  width:96%;
+  margin:2% auto;
+  box-sizing: border-box;
+}
+.banner img{
+  width:100%;
+  height:auto;
+}
+.container{
+  display:flex;
+  width:94%;
+  margin:0 auto;
+  flex-direction:row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.containerPro{
+  display:flex;
+  width:94%;
+  margin:0 auto;
+  flex-direction:row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.child1{
+  width: 47%;
+}
+.child1 img{
+  width: 100%;
+  height: auto;
+}
+.child2{
+  width: 31.33%;
+
+}
+.child2 img{
+  width: 100%;
+  height: auto;
+}
+.child3{
+  width: 23.5%;
+}
+.child3 img{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width:320px) and
+(max-width:767px){
+  .containerPro{
+    display:flex;
+    width:94%;
+    margin:0 auto;
+    flex-direction:column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .child3{
+    width: 100%;
+  }
+  .child3 img{
+    width: 100%;
+    height: auto;
+  }
+  header{
+    width: 50%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  header>div{
+    width:25%;
+  }
+  header >div img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+  }
+  header>div h3{
+    margin-top: 5%;
+    margin-right: auto;
+  }
+
+}
+  @media only screen and (min-width:768px) and(max-width:1023px){
+    .containerPro{
+      display:flex;
+      width:94%;
+      margin:0 auto;
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    .child3{
+      width: 47%;
+    }
+    .child3 img{
+      width: 100%;
+      height: auto;
+    }
+
+
+}
